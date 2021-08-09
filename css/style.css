@@ -1,0 +1,317 @@
+body{
+    margin: 15px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding:0;
+    background-color: rgb(65, 42, 87);
+}
+/* -------------------------------MAIN--------------------------------------- */
+header{
+    height: 50px;
+    width: 100%;
+    /* animation: nav 1s ; */
+    animation: photo_img 2s ease-in-out ;
+   
+   
+}
+.nav{
+    height: 50px;
+    width: 100%;
+    border: 1px solid rgb(173, 148, 5) ;
+  border-radius: 20px;
+  /* animation: nav 1s  ; */
+
+
+}
+@keyframes nav {
+    0%{
+        margin-top: 150%;
+    }
+
+    100%{
+        margin-top: 0%;
+    }
+}
+
+.nav_left{
+    width: 90%;
+    float: left;
+    height: 50px;
+    /* border: 1px solid rgb(29, 27, 16) ; */
+
+}
+.nav_right{
+    width: 9%;
+    float: right;
+    height: 50px;
+    /* border: 1px solid rgb(68, 20, 1) ; */
+   
+
+    
+}
+
+.menu{
+height: 50px;
+ width: 50%; 
+}
+
+
+.menu ul li{
+    margin-top: 12px;
+    padding-left: 15px;
+    font-size: large;
+    font-weight:bold;
+    
+   
+    
+  }
+  .menu ul > li:hover{
+    color: white;
+  }
+  /* .menu ul ul > li:hover{
+    background-color: #69e;
+  } */
+  .menu ul li, .menu ul{
+    display: inline-block;
+  }
+  .menu ul{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    /* background-color: #f63; */
+  }
+  .menu ul ul{
+    display: none;
+    position: absolute;
+    /* background-color: rgb(173, 148, 5); */
+    margin-top: 10px;
+    margin-left: -10px;
+  }
+  .menu ul a{
+    color:rgb(173, 148, 5);
+    text-decoration: none;
+  
+
+  }
+  .menu ul ul a{
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    
+  }
+  .menu ul li a :hover{
+    background-color: white;
+    text-decoration: none;
+   
+  }
+  .menu li:hover ul{
+    display: block;
+  
+  }
+  
+  .menu li:hover li{
+    display: block;
+   
+    /* background-color: rgb(173, 148, 5); */
+  }
+  .logo{
+     top: 10px !important;
+    /* border: 1px solid black; */
+    position:relative;
+    margin-top: 12px;
+    vertical-align: middle;
+    text-decoration: none;
+    color:rgb(173, 148, 5);
+    font-size: large;
+    font-weight:bold;  
+  }
+
+/* ---------------------------------Photo----------------------------------------- */
+.photo{
+    margin-top: 15px;
+    width: 100%;
+    height: 500px;
+   
+}
+.photo img {
+    width: 100%; 
+    height:500px; 
+    object-fit: cover;  
+    border: 1px solid rgb(173, 148, 5);
+    border-radius: 20px;
+    animation: photo_img 2s ease-in-out ;
+
+}
+@keyframes photo_img {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+/*----------------------------------- History ------------------------------------ */
+.history{
+    margin-top: 15px;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 400px ;
+    
+}
+
+.history .left{
+    width: 50%;
+    float: left;
+     
+}
+.history .right{
+    width: 50%;
+    /* height: 600px ; */
+    float: right;
+}
+.left ul > li{
+    list-style-type: none;
+    text-decoration: none;
+    padding-top: 35px;
+    font-size: large;
+    color: rgb(173, 148, 5);
+    animation: hr 3s ;
+}
+.right ul > li{
+    list-style-type: none;
+    text-decoration: none;
+    padding-top: 60px;
+    font-size: large;
+    color: rgb(173, 148, 5);
+    animation: hr 3s ;
+}
+ul{
+    text-decoration: none;
+}
+hr {
+    display: block;
+    width: 80%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border: 1px solid black;
+    
+} 
+
+
+
+
+
+/*----------------------------------- Last win ------------------------------------ */
+.last_win{
+ 
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 600px ;
+}
+.win_first{
+    width: 49%;
+    height: 600px ;
+    /* border: 1px solid red; */
+    float: left;
+    /* padding: -30px; */
+}
+.win_second{
+    width: 50%;
+    height: 600px ;
+    /* border: 1px solid blue; */
+    float: right;
+}
+.inwin{  
+    margin-top: 40px;
+    width: 80%;
+    height: 300px;
+    /* border: 1px solid green; */
+    
+}
+.inwin2{
+   margin-top: 10px;
+    width: 80%;
+    height: 290px;
+     /* border: 1px solid green;  */
+    
+}
+.inwin img {
+    height: 290px; 
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid rgb(173, 148, 5);
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+}
+.inwin2 img {
+    height: 290px; 
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid rgb(173, 148, 5);
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+}
+
+/* -------------------------------------------Footer --------------------------------------*/
+.footer{
+    margin-top: 80px;
+    /* border:1px solid black; */
+    width: 100%;
+    height: 80px;
+}
+.footer h4{
+    margin-top: 30px;
+    color: rgb(173, 148, 5);
+}
+.footer .left{
+    width: 49%;
+    height: 80px;
+    float:left;
+}
+.footer .right{
+    width: 50%;
+    height: 80px;
+    float:right;
+    /* border:1px solid green; */
+}
+.footer .insta{
+    width: 13%;
+    height: 80px;
+    border-radius: 300px;
+    border: 2px solid rgb(173, 148, 5);
+    float: right;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+}
+.footer .facebook{
+    width: 13%;
+    height: 80px;
+    border-radius: 300px;
+    border: 2px solid rgb(173, 148, 5);
+    float: right;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+}
+.footer .twitter{
+    width: 13%;
+    height: 80px;
+    border-radius: 300px;
+    border: 2px solid rgb(173, 148, 5);
+    float: right;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+}
+.footer .link{
+    width: 13%;
+    height: 80px;
+    border-radius: 300px;
+    border: 2px solid rgb(173, 148, 5);
+    float: right;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+}
+.footer img{
+    height: 80px;
+    border-radius: 300px;
+    margin-left: 2px;
+
+}

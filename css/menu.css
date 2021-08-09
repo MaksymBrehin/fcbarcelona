@@ -1,0 +1,104 @@
+
+body{
+    margin: 15px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding:0;
+    background-color: rgb(65, 42, 87);
+}
+
+/* -------------------------------MAIN--------------------------------------- */
+.nav{
+    height: 50px;
+    width: 100%;
+    border: 1px solid rgb(173, 148, 5) ;
+  border-radius: 20px;
+
+}
+
+.nav_left{
+    width: 90%;
+    float: left;
+    height: 50px;
+    /* border: 1px solid rgb(29, 27, 16) ; */
+}
+.nav_right{
+    width: 9%;
+    float: right;
+    height: 50px;
+    /* border: 1px solid rgb(68, 20, 1) ; */
+
+    
+}
+
+.menu{
+height: 50px;
+ width: 50%; 
+}
+
+
+.menu ul li{
+    margin-top: 12px;
+    padding-left: 15px;
+    font-size: large;
+    font-weight:bold;
+    
+   
+    
+  }
+  .menu ul > li:hover{
+    color: white;
+  }
+  /* .menu ul ul > li:hover{
+    background-color: #69e;
+  } */
+  .menu ul li, .menu ul{
+    display: inline-block;
+  }
+  .menu ul{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    /* background-color: #f63; */
+  }
+  .menu ul ul{
+    display: none;
+    position: absolute;
+    background-color: rgb(173, 148, 5);
+    margin-top: 10px;
+    margin-left: -10px;
+  }
+  .menu ul a{
+    color:rgb(173, 148, 5);
+    text-decoration: none;
+
+  }
+  .menu ul ul a{
+    color: white;
+    text-decoration: none;
+  }
+  .menu ul li a :hover{
+    color: white;
+    text-decoration: none;
+  }
+  .menu li:hover ul{
+    display: block;
+  }
+  
+  .menu li:hover li{
+    display: block;
+    color: white;
+  }
+  .logo{
+     top: 10px !important;
+    /* border: 1px solid black; */
+    position:relative;
+    margin-top: 12px;
+    vertical-align: middle;
+    text-decoration: none;
+    color:rgb(173, 148, 5);
+    font-size: large;
+    font-weight:bold;  
+  }
+  
+ 
